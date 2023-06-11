@@ -1,0 +1,85 @@
+body {
+    background-color: #87CEEB;
+}
+
+#principal {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: 18%;
+    position: relative;
+}
+
+h1 {
+    color: #008080;
+}
+
+#button {
+    background-color: #008080;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    width: 90px;
+    z-index: 1;
+}
+
+.button {
+    background-color: #008080;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 90px;
+}
+
+#btn {
+    position: relative;
+    top: 50%;
+    left: -25%;
+}
+
+.button:hover {
+    background-color: #006666;
+}
+
+#button1 {
+    position: relative;
+}
+
+/* Estilos para responsividade em dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    #principal {
+        margin-top: 30%;
+        width: 80%;
+    }
+    
+    #button {
+        left: 23px;
+        font-size: 14px;
+    }
+    
+    
+    #button1 {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+}
